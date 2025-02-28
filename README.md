@@ -1,6 +1,6 @@
 # bricktimer🧱
 
-bricktimer is a very simple webpage with a countdown timer that starts after a randomly generated delay. The delay and countdown duration are user-configurable.
+[bricktimer](https://matt-op.github.io/bricktimer/) is a very simple webpage with a countdown timer that starts after a randomly generated delay. The delay and countdown duration are user-configurable.
 
 ## Features
 
