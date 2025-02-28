@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <h1>bricktimer🧱</h1>
+    <h2>You welcome the sound. In fact it's the sound that sets you free. You are a prisoner on this block until that sound sets you free. - John W. Creasy</h2>
+    <div id="timer">00:00</div>
+    <div class="input-container">
+        <div class="min-max-container">
+            <div class="input-pair">
+                <label for="minTimeInput">Minimum delay</label>
+                <input type="number" id="minTimeInput" placeholder="2m" min="0">
+            </div>
+            <div class="input-pair">
+                <label for="maxTimeInput">Maximum delay</label>
+                <input type="number" id="maxTimeInput" placeholder="5m" min="0">
+            </div>
+        </div>
+        <label for="minuteInput">Set timer</label>
+        <input type="number" id="minuteInput" placeholder="15m" min="0">
+    </div>
+    <button onclick="startCountdown()">Start</button>
+    <script src="timer.js"></script>
+</body>
+</html>
